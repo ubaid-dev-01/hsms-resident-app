@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "HSMS Resident",
+    "slug": "hsms-resident",
+    "scheme": "hsms",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hsms.resident"
+    },
+    "android": {
+      "package": "com.hsms.resident",
+      "adaptiveIcon": {
+        "backgroundColor": "#10B981"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-asset",
+      "expo-font"
+    ]
+  }
+}
